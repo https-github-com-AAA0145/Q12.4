@@ -73,9 +73,12 @@ cbind(df1, df2)
 write.csv(tidy, file = "tidy.csv", row.names = FALSE)
 
 
-# comment for solving Q12 for part 5 //////////////////////////////
 saveRDS(tidy, "tidy.rds")
 tidy2 <- readRDS("tidy.rds")
 
 write.csv(tidy, file = bzfile("tidy.csv.bz2"), row.names = FALSE)
 tidy3 <- read.csv("tidy.csv.bz2")
+
+
+
+# comment for solving Q12 for part 5 //////////////////////////////
