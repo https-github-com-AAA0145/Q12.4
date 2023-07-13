@@ -71,6 +71,9 @@ cbind(df1, df2)
 # Saving Data
 
 write.csv(tidy, file = "tidy.csv", row.names = FALSE)
+
+
+# comment for solving Q12 for part 5 //////////////////////////////
 saveRDS(tidy, "tidy.rds")
 tidy2 <- readRDS("tidy.rds")
 
